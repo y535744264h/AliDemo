@@ -1,0 +1,27 @@
+package com.zaixin.demo.constants;
+
+/**
+ * Created by Administrator on 2018/2/9 0009.
+ */
+public class AlipayService {
+    //支付宝网关（固定）
+    public static final String URL="https://openapi.alipay.com/gateway.do";
+
+    //APPID 即创建应用后生成
+    public static final String APPID="2018020902167630";
+
+    //开发者私钥，由开发者自己生成
+    public static final String APP_PRIVATE_KEY="MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDWI5HwkltIXGHvYpGztcBGb2kg7hcfEIJEwRoKTYvB6Ajyj0CkuA/xxhIZrqJACDYtfJPlSDBStqK/KnmC6FRc2tfi85PFH/B4n5ixWOdBjwjAzWco0r8hcnftGTyAYnrZR0N9A3Z6hKnimnpHfN+Yq0cT60xpYbs//Jb663rWyC2XPCGAf+7+9bizjBFFqXsCAk0ZfgWrCDNfX7VKVw6Xzj6pYSKjH8yAMGZfeFT2u359Z0xByA8BsvYsAuELvuhpMqMS8MmoDv4O/ZYYapIbMEF/RzO2fOl7C6sO/35YT0x3CJgPP5lo3A9uy7ZUQPzcMXu0xWnk9BcWzWDC0ulpAgMBAAECggEAZ1Ye9SMLne3G7Qh6G2kX8mWNK/D5g2oqExfEgzhMuzRILRVoMpUITLoyveYCMjhEPMsja7/cYe30t5+9p6iKHY0WJVU5+CSjnPIXc23dm0t1A+WbZJ3e0js1GFvXUHU1p2i2brufDxy6BrpZS+o81KXC1R/1bd1VyVkRWuEMFFz+mexqf0CDBi21lWHejoRQoZGCHfQfClthQFC9eg/F6hKa2JhtqD1X/Row786w6czbggP4Fr+Syj5Dde+Oj86UZVJFZrxVlDrdlB4kMBoeSdZlM6+/vAkvkeDeyAfz+1ZO4RzQmoTiV5EACHsoF7ymFamPa7K6htbh5L/TcBguSQKBgQD/pA/t2kD1jwB0bvPkPBtXkcxk00hbEXQuKKCfQtT+ZsceEhMPxpCDHXAyPEBu9lvh4mI0wfkrDK4sVcp+TejwKdyzbRvCsbG39J7tqvUNhMbt4cTh5N9eBo2e2B6VMPwdNjfxa0QjjO1Jbltur6g28lkVIVm4kuY2mcl1aZQ4vwKBgQDWcJUOTbcYmJIkXcoOLXSyJaygF0ZyUoU13WoYKOmX7FEOVgkz5flGjIzFLT4TrvW1IAjhFN1unoLfVZ8BTcfyvm6JsjgR+463nSHdbdhZkrsfTqjvgON4Ga77e85oCMHiePINNGDD9+m5xFGEBX/X2Tzxb82ej4utZe6IKG//1wKBgFBxwS14474iHOOG0qq8m2IIGEiWEAvQRz4LPNhBAKN5likJSQRK2MjZp6e3PBNu5OUFByBQ9eatG9YJvSnXvHhuw+uWZwjyP9mCWcyyYmC5qpvK0ti+2+dLqp8UpTMPchaDLEGFHrENNNJJru36yrVXt96lWwVw/I6sADA5ZBIjAoGATDPbtCaHzzTAki3GFL2wf3IF4yoCPbP3ZInXHtjDEdrHfxmx0YCC0cA2cgc+zQ3agM/ud9XLTnkDtsudYoA6cpebflEXvcQwFi2/kAlt3X7YAisYu2uI6e/uj62STsP16j3ifjDDxj/+Daam9QxjPtgS4RVC83q9PxQ+7KG6EycCgYEA4QFP648RUXoo5K1/6DQl0/+citEkWGDaqpLiBL4MPkRNCSfVlxzFSmya2SdgsuHNVJ5snRgFMS6nFJ22z5V2EmC1UDQHFtZ+ih2m6VNE0rUkvXdmXbd7yzbwtj0ssi36EzOaBfnuXYtAci1oDzZ7z9jXw00q9nPvHUIGkkQE5rc=";
+
+    //参数返回格式，只支持json
+    public static final String FORMAT="json";
+
+    //编码集，支持GBK/UTF-8 开发者根据实际工程编码配置
+    public static final String CHARSET="UTF-8";
+
+    //支付宝公钥，由支付宝生成
+    public static final String ALIPAY_PUBLIC_KEY="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw+WmHEztFpt5fmPCpXzakNKsTn2prYjdUDFefzo6oLUvdRLjSpQoiOAdUCYGiFCsLKEkvGYGcJrpFpd1l6j2/ihovoynY1KRmWUEU6FN9AyQNrPHH3h6DqFz8eo6BcClspq5wKtSAviXUPyGkxriWGAeMoq2vlf+TxD24uundzgIhASbE9GgbygqsBwuJ05SQ+4eDCSqmwUjm1S7vQxysy0KC30Ywtz5iDXyEDd+yEeJVrCfxHciAR2qHhydrleS94GieFiTPFZramSM5VlHR0ObZiV09xSiL4hLPK9bNmc2+Vh9TWONqupfFi3Wamb+aFmjZUMykJcaoaxv+KhRDwIDAQAB";
+
+    //商户生成签名字符串所使用的签名算法类型，目前支持RSA2和RSA，推荐使用RSA2
+    public static final String SIGN_TYPE="RSA2";
+}

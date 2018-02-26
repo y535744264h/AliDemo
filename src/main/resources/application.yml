@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.106.112.32:3306/test
+    data-username: root
+    data-password: yh
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+  messages:
+    encoding: UTF-8
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
